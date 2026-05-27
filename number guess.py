@@ -2,15 +2,23 @@
 
 import random
 
-number = random.randint(1,10)
+target = random.randint(1,100)
 
-guess = int(input("ENTER YOUR GUESS NUMBER : "))
+while True:
+    Userchoice = input("Guess Your Choice Number or Quit(Q) : ")
+    if(Userchoice == "Q"):
+        break
 
-if guess == number:
-    print("CORRECT")
-elif guess > number:
-    print("TO) HIGH")
-elif guess < number:
-    print("TOO LOW")
+    Userchoice = int(Userchoice)
+    if(Userchoice == target):
+        print("Success : Correct Guess😎!!")
+        break
+    elif(Userchoice < target):
+        print("Your Number Was Too Small😨. Take a Bigger Guess...")
+    else:
+        print("Your Number Was Too High😨. Take a Smaller Guess...")
 
-print(number)
+
+
+print("-----👾GAME OVER👾-----")
+
