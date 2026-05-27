@@ -14,7 +14,7 @@ while True:
         print("Success : Correct Guess😎!!")
         break
     elif(Userchoice < target):
-        print("Your Number Was Too Small😨. Take a Bigger Guess...")
+        print("Your Number Was Too Small👎🏻. Take a Bigger Guess...")
     else:
         print("Your Number Was Too High😨. Take a Smaller Guess...")
 
