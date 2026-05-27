@@ -7,6 +7,7 @@ target = random.randint(1,100)
 while True:
     Userchoice = input("Guess Your Choice Number or Quit(Q) : ")
     if(Userchoice == "Q"):
+        print("User Has Quit The Game...🥲")
         break
 
     Userchoice = int(Userchoice)
