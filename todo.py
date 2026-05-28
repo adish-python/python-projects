@@ -33,7 +33,7 @@ tasks.append(task8)
 tasks.append(task9)
 tasks.append(task10)
 
-print("ALL THIS TASKS I HAVE TO DO IN A DAY")
+print("-----📝ALL THIS TASKS I HAVE TO DO IN A DAY📝-----")
 print("1", task1)
 print("2", task2)
 print("3", task3)
